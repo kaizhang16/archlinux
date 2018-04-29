@@ -40,7 +40,7 @@ systemctl --user daemon-reload
 systemctl --user enable emacs
 systemctl --user start emacs
 
-## 使用时输入emacsclient -t
+## 使用时输入 emacsclient -t
 ```
 
 ## Go
@@ -61,7 +61,7 @@ gometalinter --install --update
 ## System
 
 ```
-sudo pacman -S aspell aspell-en bind-tools fakeroot graphviz make
+sudo pacman -S aspell aspell-en bind-tools fakeroot gdisk graphviz htop lsof make strace
 go get -u -v github.com/Jguer/yay
 ```
 
@@ -114,4 +114,10 @@ sudo pacman -S rust
 
 ```
 sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts wqy-microhei wqy-zenhei
+```
+
+## Utility
+
+```
+yay -S pet-bin
 ```
